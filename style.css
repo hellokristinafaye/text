@@ -49,4 +49,13 @@ nav ul li a {
     -webkit-background-clip: text;
     /* the below line moves the white "background" from left-right */
     background-position: -750px 0;
+    /* alternate makes it go back and forth. otherwise it just goes left to right */
+    animation: backcolor 5s linear infinite alternative;
 }
+@keyframes backcolor {
+    100% {
+        background-posiiton: 0 0;
+    }
+}
+
+/* um, wtf? it doesn't work?? so we're gonna push now and maybe debug in a min */
