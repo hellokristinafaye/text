@@ -34,3 +34,15 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
 }
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 160px;
+    /* the below line creates an outline for the letters */
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no-repeat;
+}
