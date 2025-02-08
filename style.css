@@ -41,7 +41,7 @@ nav ul li a {
     transform: translate(-50%, -50%);
     font-size: 160px;
     /* the below line creates an outline for the letters */
-    -webkit-text-stroke: 1px #fff;
+    /* -webkit-text-stroke: 1px #fff; */
     color: transparent;
     background-image: linear-gradient(#fff, #fff);
     background-repeat: no-repeat;

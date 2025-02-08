@@ -9,18 +9,20 @@ Technologies Used:
 - HTML
 - CSS
 
-  - /* the below line creates an outline for the letters */
-  - -webkit-text-stroke: 1px#fff;
+  - -webkit-text-stroke: 1px #fff;
   - color: transparent;
   - background-image: linear-gradient(#fff, #fff);
   - background-repeat: no-repeat;
   - /* the below line allows the white "background" to show thru the text instead of in the negative space round the text */
   - -webkit-background-clip: text;
   - /* the below line moves the white "background" from left-right */
-  - background-position: -750px0;
-  - animation: backcolor 5x linearinfinite;
+  - background-position: -750px 0;
+  - animation: backcolor 5x linear infinite;
 
 Features:
+
+- Beautiful assets (provided by the tutorial)
+- Animated Text styling
 
 Challenges:
 
